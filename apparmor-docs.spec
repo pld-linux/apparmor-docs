@@ -1,7 +1,7 @@
 %define		_ver 2.0
 %define		_svnrel 57
 Summary:	Novell AppArmor Host Application Security Suite Documentation package
-Summary(pl):	Pakiet z dokumentacj± Novell AppArmor Host Application Security Suite
+Summary(pl.UTF-8):   Pakiet z dokumentacjÄ… Novell AppArmor Host Application Security Suite
 Name:		apparmor-docs
 Version:	%{_ver}.%{_svnrel}
 Release:	1
@@ -21,9 +21,9 @@ This package contains documentation for the AppArmor Host Application
 Security Suite. This package is part of a suite of tools that used to
 be named SubDomain.
 
-%description -l pl
-Ten pakiet zawiera dokumentacjê dla AppArmor Host Application Security
-Suite. Jest czê¶ci± zestawu narzêdzi znanych wcze¶niej pod nazw±
+%description -l pl.UTF-8
+Ten pakiet zawiera dokumentacjÄ™ dla AppArmor Host Application Security
+Suite. Jest czÄ™Å›ciÄ… zestawu narzÄ™dzi znanych wczeÅ›niej pod nazwÄ…
 SubDomain.
 
 %prep
