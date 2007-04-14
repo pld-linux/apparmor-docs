@@ -1,13 +1,14 @@
-%define		_ver 2.0
-%define		_svnrel 57
+%define		_ver 2.0.1
+%define		_svnrel 237
 Summary:	Novell AppArmor Host Application Security Suite Documentation package
 Summary(pl.UTF-8):	Pakiet z dokumentacją Novell AppArmor Host Application Security Suite
 Name:		apparmor-docs
 Version:	%{_ver}.%{_svnrel}
 Release:	1
+Epoch:		1
 Group:		Documentation
-Source0:	http://forgeftp.novell.com/apparmor/Development%20-%20October%20Snapshot/%{name}-%{_ver}-%{_svnrel}.tar.gz
-# Source0-md5:	3c371d0d471a4a52499b8d0135dae096
+Source0:	http://forgeftp.novell.com/apparmor/Development%20-%20March%2007%20-%20SnapShot/%{name}-%{_ver}-%{_svnrel}.tar.gz
+# Source0-md5:	7c7874c998f97bcc0671db4ad87db46d
 License:	GPL
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
 BuildRequires:	perl-tools-pod
